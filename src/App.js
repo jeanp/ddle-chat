@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const theme = {
+export const theme = {
   toolbar: {
     backgroundColor: "#1e8eca",
     inputBorderColor: "#1d6c97",
