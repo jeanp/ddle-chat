@@ -5,7 +5,6 @@ const BASE_URL = "https://chatty.kubernetes.doodle-test.com/api/chatty/v1.0";
 
 export const fetchAllMessages = (params = {}) => {
   const defaultFetchAllMessagesParams = {
-    limit: 10,
     token: TOKEN,
   };
 
